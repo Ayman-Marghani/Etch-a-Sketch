@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  min-height: 30px;
+  min-width: 30px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.square:hover {
+  background-color: gray;
+}
