@@ -1,15 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: tahoma, sans-serif;
+  color: #e9ecef;
+}
+
+h1,
+.squares-num-btn {
+  background-color: #219ebc;
+}
+
+h1 {
+  text-align: center;
+  padding: 24px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.squares-num-btn {
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  /* center the button */
+  display: block;
+  margin: auto;
+}
+
+.container {
+  margin: 24px auto;
+  width: 600px;
+  height: 600px;
+}
+
 .row {
   display: flex;
   justify-content: center;
-}
-
-.square {
-  min-height: 30px;
-  min-width: 30px;
-  border: 1px solid black;
-  box-sizing: border-box;
-}
-
-.square:hover {
-  background-color: gray;
 }
