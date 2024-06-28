@@ -8,6 +8,7 @@ function getSquaresNum() {
   while (squaresNum > 100 || squaresNum < 1 || Number.isNaN(squaresNum)) {
     squaresNum = Number(prompt("Enter the number of squares per row (max: 100): "));
   }
+  squaresNum = Math.floor(squaresNum);
   return squaresNum;
 }
 
@@ -52,7 +53,6 @@ squaresNumBtn.addEventListener("click", () => {
 
 // hover event
 container.addEventListener("mouseover", (event) => {
-  console.log("hover");
   event.target.style.backgroundColor = "#adb5bd";
 });
 
